@@ -45,6 +45,47 @@
     }
 
     .hero-section h1 {
+<style>
+    /* CSS Styles */
+
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    /* Specific styles */
+    .hero-section {
+      text-align: center;
+      padding: 100px 0;
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .hero-section h1 {
       font-size: 48px;
       margin-bottom: 20px;
     }
@@ -96,7 +137,21 @@
       transition: background-color 0.3s ease;
     }
 
-    .btn-vault:hover {
+    .btn-support {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-left: 10px;
+    }
+
+    .btn-vault:hover,
+    .btn-support:hover {
       background-color: #0056b3;
     }
   </style>
@@ -106,6 +161,8 @@
     <div class="hero-section">
       <h1>Welcome to CryptoVault Company</h1>
       <p>Invest and leverage the opportunities of cryptocurrencies!</p>
+      <a href="#" class="btn-vault">Vault</a>
+      <a href="#" class="btn-support">Support</a>
     </div>
 
     <div class="features-section">
